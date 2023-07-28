@@ -1,0 +1,37 @@
+Direction - these individual project have cleaning/ analysibg and exploratory directions that we can learn from.
+
+Cleaning 
+
+https://github.com/L-Lewis/Airbnb-neural-network-price-prediction/blob/master/Airbnb-price-prediction.ipynb
+
+https://github.com/samuelklam/airbnb-pricing-prediction/blob/master/README.md
+- I like this guy cleaning too. Looks really simple and not over analysis.
+Hope to strike a balance between data understanding and succint data analysis. 
+
+
+Rank listing my image aesthetic :
+
+https://github.com/deepak-karkala/airbnb-data-science/tree/master/notebooks
+
+
+Correlation matrix of features
+https://medium.datadriveninvestor.com/making-models-airbnb-price-prediction-data-analysis-15b9af87c9d8
+
+ML model performance comparison
+
+<this guy is pretty useless bc hes doing international data but we come use some feature>
+https://github.com/deepak-karkala/airbnb-data-science/blob/master/notebooks/airbnb_exploratory_analysis.ipynb
+
+
+To add to limitations:
+- Data set from insideairbnb
+- XGBoost model only address non-spatial variables not spatial dependence variable : https://www.sciencedirect.com/science/article/pii/S2666827021001043
+- Lack of domain expertise
+
+
+Do statistical analysis on : Impact of Airbnb images on Airbnb prices
+- Motivation: https://higherbookings.com/wp-content/uploads/2018/09/How-Much-is-an-Image-Worth-Airbnb-Property-Demand-Analytics-Leveraging-A-Scalable-Image-Classification-Algorithm.pdf
+- https://github.com/deepak-karkala/airbnb-data-science/blob/master/notebooks/rank_listings_by_image_aesthetics.ipynb
+Get aesthetics score and segment 100 high priced airbnb vs 100 low priced airbnb (set a price cut off to be the 3rd quadrant and 1st quadrant, the 2nd quadrant is the median). 
+Do a ttest on those two group, in order to reject H0.
+If H0 is rejected (which hopefully it is), it means that aestheticness of listing explains the price.
