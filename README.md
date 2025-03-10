@@ -8,19 +8,18 @@ This project analyzes Vancouver Airbnb listings to predict prices using various 
 
 This project involved:
 
-Data Cleaning -> Handled missing values, transformed columns, and removed irrelevant or highly correlated features.
-Exploratory Data Analysis (EDA)-> Visualized trends to understand the impact of various factors like amenities, location, and host attributes on pricing.
-Feature Engineering -> Created new features and transformed existing ones to improve model performance.
-Modeling -> Built and evaluated multiple regression models, including:
-    Linear Regression
-    Lasso Regression
-    Decision Tree Regressor
-    K-Nearest Neighbors (KNN)
-    XGBoost Regressor
-Hyperparameter Tuning -> Used GridSearchCV to optimize model parameters.
-Model Evaluation -> Assessed models based on Mean Squared Error (MSE) and R-Squared scores.
-🛠️ Technologies Used
-
+- Data Cleaning -> Handled missing values, transformed columns, and removed irrelevant or highly correlated features.
+- Exploratory Data Analysis (EDA)-> Visualized trends to understand the impact of various factors like amenities, location, and host attributes on pricing.
+- Feature Engineering -> Created new features and transformed existing ones to improve model performance.
+- Modeling -> Built and evaluated multiple regression models, including:
+    * Linear Regression
+    * Lasso Regression
+    * Decision Tree Regressor
+    * K-Nearest Neighbors (KNN)
+    * XGBoost Regressor
+- Hyperparameter Tuning -> Used GridSearchCV to optimize model parameters.
+- Model Evaluation -> Assessed models based on Mean Squared Error (MSE) and R-Squared scores.
+ 
 ## 🚀 Key Findings
 
 Top Predictors:
@@ -28,7 +27,7 @@ Availability and review scores significantly impact prices.
 Amenities like self-check-in, kitchen, and Wi-Fi are also important.
 
 Best Performing Model:
-XGBoost Regressor achieved the highest R-squared score of 0.64, indicating that it explained 64% of the variance in listing prices.
+The XGBoost Regressor demonstrated the highest R-squared score, indicating it was the most effective at explaining the variance in listing prices.
 
 ## 📈 Future Improvements
 
